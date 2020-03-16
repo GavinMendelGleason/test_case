@@ -1,0 +1,7 @@
+:- module(another, [
+              a_thing/1 % we're explicitely exporting this so it can be excluded elsehwere
+          ]).
+
+a_thing :-
+
+    true.
